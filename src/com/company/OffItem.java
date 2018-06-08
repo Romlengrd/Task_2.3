@@ -19,4 +19,9 @@ public class OffItem {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString () {
+        return "name - " + name + " price - " + price;
+    }
 }

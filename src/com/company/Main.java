@@ -24,8 +24,7 @@ public class Main {
         System.out.println("Получившийся набор:");
         for (int i =0; i<4; i++) {
             if (setNewcomer[i]!=null) {
-                System.out.println(setNewcomer[i].getName());
-                System.out.println(setNewcomer[i].getPrice());
+                System.out.println(setNewcomer[i]);
             }
         }
         System.out.println(led.getName() + " не для новичка, потому что стоит аж " + led.getPrice());
